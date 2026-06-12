@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FiCode, FiBriefcase, FiCpu, FiStar, FiArrowRight } from 'react-icons/fi';
+import { FiCode, FiBriefcase, FiCpu, FiStar, FiArrowRight, FiAward } from 'react-icons/fi';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -7,10 +7,10 @@ const fadeUp = {
 };
 
 const cards = [
-  { icon: FiCode, title: 'Full Stack Developer', text: 'Building web apps with React, Spring Boot, FastAPI, and modern JavaScript/TypeScript.', color: '#64ffda' },
-  { icon: FiCpu, title: 'AI/LLM Engineer', text: 'Deploying LLMs via NVIDIA NIM, benchmarking with AIPerf, and building RAG systems.', color: '#38bdf8' },
-  { icon: FiBriefcase, title: 'QA & Automation', text: 'API testing, performance benchmarking, and monitoring enterprise AI infrastructure.', color: '#f472b6' },
-  { icon: FiStar, title: 'CCNA Certified', text: 'Cisco certified with strong networking fundamentals and infrastructure knowledge.', color: '#fbbf24' },
+  { icon: FiCode, title: 'Full Stack Developer', text: 'Building web apps with React, Spring Boot, FastAPI, and modern JavaScript/TypeScript.', color: '#64ffda', cert: null },
+  { icon: FiCpu, title: 'AI/LLM Engineer', text: 'Deploying LLMs via NVIDIA NIM, benchmarking with AIPerf, and building RAG systems.', color: '#38bdf8', cert: null },
+  { icon: FiBriefcase, title: 'QA & Automation', text: 'API testing, performance benchmarking, and monitoring enterprise AI infrastructure.', color: '#f472b6', cert: null },
+  { icon: FiStar, title: 'CCNA Certified', text: 'Cisco certified with strong networking fundamentals and infrastructure knowledge.', color: '#fbbf24', cert: '/ccna-certificate.pdf' },
 ];
 
 const stats = [
@@ -99,7 +99,7 @@ export default function About() {
 
         {/* Role cards */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {cards.map(({ icon: Icon, title, text, color }, i) => (
+          {cards.map(({ icon: Icon, title, text, color, cert }, i) => (
             <motion.div
               key={title}
               variants={fadeUp}
@@ -117,7 +117,15 @@ export default function About() {
               </div>
               <h3 className="font-bold text-white text-sm mb-2">{title}</h3>
               <p className="text-xs text-slate-400 leading-relaxed">{text}</p>
-              <FiArrowRight size={16} className="mx-auto mt-3" style={{ color }} />
+              {cert ? (
+                <a href={cert} target="_blank" rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 mt-3 text-xs font-medium transition-colors hover:underline"
+                  style={{ color, textDecoration: 'none' }}>
+                  <FiAward size={14} /> View Certificate
+                </a>
+              ) : (
+                <FiArrowRight size={16} className="mx-auto mt-3" style={{ color }} />
+              )}
             </motion.div>
           ))}
         </div>
