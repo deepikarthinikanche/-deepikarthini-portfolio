@@ -73,7 +73,7 @@ export default function Stats() {
           <div className="w-16 h-1 rounded-full mx-auto mt-4" style={{ background: 'linear-gradient(90deg,#6c63ff,#00d4ff)' }} />
         </motion.div>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-5">
-          {stats.map((s, i) => (
+          {stats.map((s, _i) => (
             <StatCard key={s.label} {...s} animate={started} />
           ))}
         </div>

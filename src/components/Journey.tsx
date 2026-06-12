@@ -65,7 +65,7 @@ const timeline = [
 type TimelineItem = typeof timeline[0];
 
 function Card({ item }: { item: TimelineItem }) {
-  const Icon = item.icon;
+  const _Icon = item.icon;
   return (
     <div className="glass glass-hover p-5 rounded-2xl w-full">
       <div className="flex flex-wrap items-start justify-between gap-2 mb-2">
