@@ -1,0 +1,411 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - generic [ref=e7]: DK
+        - generic [ref=e8]: Deepikarthini Kanche
+      - generic [ref=e9]:
+        - button "About" [ref=e10]
+        - button "Skills" [ref=e11]
+        - button "Experience" [ref=e12]
+        - button "Projects" [ref=e13]
+        - button "Contact" [ref=e14]
+        - link "Resume" [ref=e15] [cursor=pointer]:
+          - /url: /resume.pdf
+          - img [ref=e16]
+          - text: Resume
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - generic [ref=e24]: Software Automation Engineer @ Cisco
+            - generic [ref=e26]: Open to Full-time SDE
+          - heading "Hey, I'm Deepikarthini" [level=1] [ref=e27]
+          - generic [ref=e29]: Full Stack Developer
+          - paragraph [ref=e30]: Cisco, deploying & optimising LLMs (Mistral-24B, LLaMA-70B) with NVIDIA NIM & Triton. CSE graduate from Sri Chaitanya Technical Campus (2024). Passionate about Python, AI/LLM deployment, and scalable software systems.
+          - generic [ref=e31]:
+            - button "View Projects" [ref=e32]
+            - link "Download CV" [ref=e33] [cursor=pointer]:
+              - /url: /resume.pdf
+          - generic [ref=e34]:
+            - link "GitHub" [ref=e35] [cursor=pointer]:
+              - /url: https://github.com/deepikarthini
+              - img [ref=e36]
+            - link "LinkedIn" [ref=e38] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/deepikarthinikanche/
+              - img [ref=e39]
+            - link "Email" [ref=e43] [cursor=pointer]:
+              - /url: mailto:deepikarthinikanche444@gmail.com
+              - img [ref=e44]
+        - img "Deepikarthini Kanche" [ref=e50]
+      - button "Scroll down" [ref=e51]:
+        - img [ref=e52]
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - text: Get to Know Me
+        - heading "About Me" [level=2] [ref=e57]
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - generic [ref=e62]: DK
+            - generic [ref=e63]:
+              - heading "Deepikarthini Kanche" [level=3] [ref=e64]
+              - paragraph [ref=e65]: Software Automation Engineering Apprentice @ Cisco
+          - generic [ref=e66]:
+            - paragraph [ref=e67]: "I'm a Computer Science & Engineering graduate (CGPA: 7.58) from Sri Chaitanya Technical Campus (2024), currently working as a Software Automation Apprentice at Cisco."
+            - paragraph [ref=e68]: At Cisco, I deploy and optimise Large Language Models (Mistral-24B, LLaMA-70B) using NVIDIA NIM and Triton Inference Server, perform performance benchmarking with aiperf, and monitor systems with Grafana & Prometheus.
+            - paragraph [ref=e69]: I'm proficient in Python, Java, SQL and have hands-on experience with React, Spring Boot, PostgreSQL, Docker, Selenium, and Postman.
+            - paragraph [ref=e70]:
+              - text: I believe in
+              - strong [ref=e71]: consistency over intensity
+              - text: — actively practising DSA and preparing for SDE roles while contributing professionally at Cisco.
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - paragraph [ref=e74]: Location
+              - paragraph [ref=e75]: Bangalore / Hyderabad
+            - generic [ref=e76]:
+              - paragraph [ref=e77]: Education
+              - paragraph [ref=e78]: B.E. CSE – 2024
+            - generic [ref=e79]:
+              - paragraph [ref=e80]: Current Role
+              - paragraph [ref=e81]: Cisco Apprentice
+            - generic [ref=e82]:
+              - paragraph [ref=e83]: Status
+              - paragraph [ref=e84]: Open to SDE Roles
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - img [ref=e88]
+            - heading "Developer" [level=4] [ref=e91]
+            - paragraph [ref=e92]: Python developer with hands-on experience in automation, data analysis, and AI tooling.
+          - generic [ref=e93]:
+            - img [ref=e95]
+            - heading "AI Explorer" [level=4] [ref=e98]
+            - paragraph [ref=e99]: Exploring LLMs, Generative AI, Prompt Engineering, and modern AI tools like Llama & Mistral.
+          - generic [ref=e100]:
+            - img [ref=e102]
+            - heading "SDE Aspirant" [level=4] [ref=e105]
+            - paragraph [ref=e106]: Actively practicing DSA and preparing for SDE interviews with disciplined daily routines.
+          - generic [ref=e107]:
+            - img [ref=e109]
+            - heading "Learner" [level=4] [ref=e111]
+            - paragraph [ref=e112]: Early-morning learner who values consistency, curiosity, and continuous improvement.
+    - generic [ref=e114]:
+      - generic [ref=e115]:
+        - text: Work Experience
+        - heading "At Cisco" [level=2] [ref=e116]
+        - paragraph [ref=e118]: My professional journey at one of the world's leading networking and technology companies.
+      - generic [ref=e119]:
+        - generic [ref=e120]:
+          - generic [ref=e121]:
+            - generic [ref=e122]: C
+            - generic [ref=e123]:
+              - heading "Software Automation Apprentice" [level=3] [ref=e124]
+              - paragraph [ref=e125]: Cisco Systems
+          - generic [ref=e126]:
+            - generic [ref=e127]:
+              - img [ref=e128]
+              - text: Aug 2025 – Aug 2026
+            - generic [ref=e130]:
+              - img [ref=e131]
+              - text: Bangalore, Karnataka, India
+            - generic [ref=e134]:
+              - img [ref=e135]
+              - text: Apprenticeship · On-site
+        - generic [ref=e138]:
+          - heading "Key Contributions" [level=4] [ref=e139]
+          - list [ref=e140]:
+            - listitem [ref=e141]:
+              - img [ref=e142]
+              - text: Collaborated with cross-functional teams on development, testing, and debugging of AI inference systems.
+            - listitem [ref=e145]:
+              - img [ref=e146]
+              - text: Deployed and tested Large Language Models (Mistral-24B, LLaMA-70B) using NVIDIA NIM and Triton Inference Server.
+            - listitem [ref=e149]:
+              - img [ref=e150]
+              - text: Performed performance benchmarking of LLM inference pipelines using aiperf tooling.
+            - listitem [ref=e153]:
+              - img [ref=e154]
+              - text: Monitored system health and model performance metrics with Grafana dashboards and Prometheus.
+            - listitem [ref=e157]:
+              - img [ref=e158]
+              - text: Contributed to automation workflows that reduced manual testing overhead across multiple AI services.
+          - generic [ref=e161]:
+            - heading "Technologies Used" [level=4] [ref=e162]
+            - generic [ref=e163]:
+              - generic [ref=e164]: Python
+              - generic [ref=e165]: NVIDIA NIM
+              - generic [ref=e166]: Triton
+              - generic [ref=e167]: LLaMA-70B
+              - generic [ref=e168]: Mistral-24B
+              - generic [ref=e169]: Prometheus
+              - generic [ref=e170]: Grafana
+              - generic [ref=e171]: aiperf
+    - generic [ref=e173]:
+      - generic [ref=e174]:
+        - text: What I Know
+        - heading "My Skills" [level=2] [ref=e175]
+      - generic [ref=e177]:
+        - button "Languages" [ref=e178]
+        - button "Web & Frameworks" [ref=e179]
+        - button "Tools & DevOps" [ref=e180]
+        - button "AI / LLM Deployment" [ref=e181]
+        - button "Core Concepts" [ref=e182]
+      - generic [ref=e183]:
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - img [ref=e187]
+            - generic [ref=e189]: Python
+          - generic [ref=e190]: 85%
+        - generic [ref=e193]:
+          - generic [ref=e194]:
+            - img [ref=e195]
+            - generic [ref=e197]: Core Java
+          - generic [ref=e198]: 75%
+        - generic [ref=e201]:
+          - generic [ref=e202]:
+            - img [ref=e203]
+            - generic [ref=e207]: SQL
+          - generic [ref=e208]: 78%
+        - generic [ref=e211]:
+          - generic [ref=e212]:
+            - img [ref=e213]
+            - generic [ref=e215]: HTML
+          - generic [ref=e216]: 80%
+        - generic [ref=e219]:
+          - generic [ref=e220]:
+            - img [ref=e221]
+            - generic [ref=e223]: CSS
+          - generic [ref=e224]: 75%
+      - generic [ref=e226]:
+        - paragraph [ref=e227]: Also familiar with
+        - generic [ref=e228]:
+          - generic [ref=e229]: JMeter
+          - generic [ref=e230]: Jupyter Notebook
+          - generic [ref=e231]: VS Code
+          - generic [ref=e232]: aiperf
+          - generic [ref=e233]: Linux CLI
+          - generic [ref=e234]: REST APIs
+          - generic [ref=e235]: CCNA
+          - generic [ref=e236]: Triton
+          - generic [ref=e237]: NVIDIA NIM
+          - generic [ref=e238]: Spring MVC
+    - generic [ref=e240]:
+      - generic [ref=e241]:
+        - text: My Path
+        - heading "Learning Journey" [level=2] [ref=e242]
+        - paragraph [ref=e244]: A timeline of milestones, skills acquired, and continuous growth on my path to becoming an SDE.
+      - generic [ref=e247]:
+        - generic [ref=e248]:
+          - generic [ref=e250]:
+            - generic [ref=e251]:
+              - generic [ref=e252]:
+                - heading "CSE Graduate" [level=3] [ref=e253]
+                - paragraph [ref=e254]: Sri Chaitanya Technical Campus
+              - generic [ref=e255]: 2020 – 2024
+            - paragraph [ref=e256]: Completed a four-year B.E. Computer Science & Engineering program covering algorithms, databases, operating systems, computer networks, and software engineering fundamentals.
+            - generic [ref=e257]:
+              - generic [ref=e258]: C
+              - generic [ref=e259]: Java
+              - generic [ref=e260]: Python
+              - generic [ref=e261]: DBMS
+              - generic [ref=e262]: OS
+              - generic [ref=e263]: CN
+          - img [ref=e265]
+        - generic [ref=e268]:
+          - img [ref=e270]
+          - generic [ref=e274]:
+            - generic [ref=e275]:
+              - generic [ref=e276]:
+                - heading "Software Automation Apprentice" [level=3] [ref=e277]
+                - paragraph [ref=e278]: Cisco · Karnataka, Bangalore
+              - generic [ref=e279]: Aug 2025 – Aug 2026
+            - paragraph [ref=e280]: Collaborating with cross-functional teams on development, testing, and debugging. Deployed and tested LLMs (Mistral-24B, LLaMA-70B) using NVIDIA NIM and Triton. Performed performance benchmarking using aiperf and monitored systems with Grafana and Prometheus.
+            - generic [ref=e281]:
+              - generic [ref=e282]: Python
+              - generic [ref=e283]: NVIDIA NIM
+              - generic [ref=e284]: Triton
+              - generic [ref=e285]: Prometheus
+              - generic [ref=e286]: Grafana
+              - generic [ref=e287]: aiperf
+              - generic [ref=e288]: LLaMA-70B
+              - generic [ref=e289]: Mistral-24B
+        - generic [ref=e290]:
+          - generic [ref=e292]:
+            - generic [ref=e293]:
+              - generic [ref=e294]:
+                - heading "AI/LLM Exploration" [level=3] [ref=e295]
+                - paragraph [ref=e296]: Self-driven Learning & Practice
+              - generic [ref=e297]: 2024 – Present
+            - paragraph [ref=e298]: Diving deep into Large Language Models, exploring Ollama with Llama and Mistral locally, studying transformer architecture, and practising prompt engineering techniques.
+            - generic [ref=e299]:
+              - generic [ref=e300]: Llama
+              - generic [ref=e301]: Mistral
+              - generic [ref=e302]: Ollama
+              - generic [ref=e303]: Prompt Engineering
+              - generic [ref=e304]: Gen AI
+          - img [ref=e306]
+        - generic [ref=e309]:
+          - img [ref=e311]
+          - generic [ref=e314]:
+            - generic [ref=e315]:
+              - generic [ref=e316]:
+                - heading "Observability & Monitoring" [level=3] [ref=e317]
+                - paragraph [ref=e318]: Prometheus · Grafana · AI Perf
+              - generic [ref=e319]: 2024 – Present
+            - paragraph [ref=e320]: Gained hands-on experience monitoring AI inference systems — collecting metrics with Prometheus, building dashboards in Grafana, and analysing model latency using AI Perf tools.
+            - generic [ref=e321]:
+              - generic [ref=e322]: Prometheus
+              - generic [ref=e323]: Grafana
+              - generic [ref=e324]: AI Perf
+              - generic [ref=e325]: Metrics
+              - generic [ref=e326]: Alerting
+        - generic [ref=e327]:
+          - generic [ref=e329]:
+            - generic [ref=e330]:
+              - generic [ref=e331]:
+                - heading "DSA & Interview Prep" [level=3] [ref=e332]
+                - paragraph [ref=e333]: Daily Practice on LeetCode / GFG
+              - generic [ref=e334]: 2024 – Present
+            - paragraph [ref=e335]: Following a structured 90-day DSA roadmap covering arrays, linked lists, trees, graphs, dynamic programming, and system design — with consistent morning coding sessions.
+            - generic [ref=e336]:
+              - generic [ref=e337]: Arrays
+              - generic [ref=e338]: Trees
+              - generic [ref=e339]: Graphs
+              - generic [ref=e340]: DP
+              - generic [ref=e341]: System Design
+          - img [ref=e343]
+    - generic [ref=e348]:
+      - generic [ref=e349]:
+        - text: What I've Built
+        - heading "Featured Projects" [level=2] [ref=e350]
+        - paragraph [ref=e352]: A showcase of projects spanning AI/ML, data engineering, automation, and visualization.
+      - generic [ref=e353]:
+        - generic [ref=e356]:
+          - generic [ref=e357]: ML / Computer Vision
+          - heading "American Sign Language Recognition" [level=3] [ref=e358]
+          - paragraph [ref=e359]: A machine learning-based system that recognises multiple American Sign Language (ASL) gestures in real time, supporting communication for deaf and mute individuals. Uses computer vision and NLP techniques for accurate gesture classification.
+          - generic [ref=e360]:
+            - generic [ref=e361]: Python
+            - generic [ref=e362]: Machine Learning
+            - generic [ref=e363]: NLP
+            - generic [ref=e364]: OpenCV
+            - generic [ref=e365]: scikit-learn
+          - link "Code" [ref=e367] [cursor=pointer]:
+            - /url: https://github.com/deepikarthini
+            - img [ref=e368]
+            - text: Code
+        - generic [ref=e372]:
+          - generic [ref=e373]: Full Stack
+          - heading "Bug Tracking & QA Workflow Management System" [level=3] [ref=e374]
+          - paragraph [ref=e375]: A full-stack workflow management application that enables teams to create, assign, and track bugs across QA and development cycles. Features role-based access, status tracking, and real-time coordination between QA and developers.
+          - generic [ref=e376]:
+            - generic [ref=e377]: React
+            - generic [ref=e378]: Spring Boot
+            - generic [ref=e379]: PostgreSQL
+            - generic [ref=e380]: REST API
+            - generic [ref=e381]: Java
+          - link "Code" [ref=e383] [cursor=pointer]:
+            - /url: https://github.com/deepikarthini
+            - img [ref=e384]
+            - text: Code
+      - link "View All on GitHub" [ref=e387] [cursor=pointer]:
+        - /url: https://github.com/deepikarthini
+        - img [ref=e388]
+        - text: View All on GitHub
+    - generic [ref=e391]:
+      - generic [ref=e392]:
+        - text: Get In Touch
+        - heading "Contact Me" [level=2] [ref=e393]
+        - paragraph [ref=e395]: I'm actively looking for SDE opportunities. Whether you have a role, a project, or just want to connect — my inbox is open!
+      - generic [ref=e396]:
+        - generic [ref=e397]:
+          - heading "Let's Connect" [level=3] [ref=e398]
+          - generic [ref=e399]:
+            - img [ref=e401]
+            - generic [ref=e404]:
+              - paragraph [ref=e405]: Email
+              - link "deepikarthinikanche444@gmail.com" [ref=e406] [cursor=pointer]:
+                - /url: mailto:deepikarthinikanche444@gmail.com
+          - generic [ref=e407]:
+            - img [ref=e409]
+            - generic [ref=e413]:
+              - paragraph [ref=e414]: LinkedIn
+              - link "linkedin.com/in/deepikarthinikanche" [ref=e415] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/deepikarthinikanche/
+          - generic [ref=e416]:
+            - img [ref=e418]
+            - generic [ref=e420]:
+              - paragraph [ref=e421]: GitHub
+              - link "github.com/deepikarthini" [ref=e422] [cursor=pointer]:
+                - /url: https://github.com/deepikarthini
+          - generic [ref=e423]:
+            - img [ref=e425]
+            - generic [ref=e428]:
+              - paragraph [ref=e429]: Location
+              - paragraph [ref=e430]: Bangalore / Hyderabad, India
+          - generic [ref=e431]:
+            - generic [ref=e434]: Available for Work
+            - paragraph [ref=e435]: "Currently open to full-time SDE positions, internships, and project collaborations. Response time: within 24 hours."
+        - generic [ref=e437]:
+          - generic [ref=e438]:
+            - generic [ref=e439]:
+              - generic [ref=e440]: Name *
+              - textbox "Your name" [ref=e441]
+            - generic [ref=e442]:
+              - generic [ref=e443]: Email *
+              - textbox "your@email.com" [ref=e444]
+          - generic [ref=e445]:
+            - generic [ref=e446]: Subject
+            - textbox "Job opportunity / Collaboration / Hello" [ref=e447]
+          - generic [ref=e448]:
+            - generic [ref=e449]: Message *
+            - textbox "Tell me about the role or project..." [ref=e450]
+          - button "Send Message" [ref=e451]:
+            - img [ref=e452]
+            - text: Send Message
+  - contentinfo [ref=e455]:
+    - generic [ref=e457]:
+      - generic [ref=e458]:
+        - generic [ref=e459]:
+          - generic [ref=e460]: <DK />
+          - paragraph [ref=e461]:
+            - text: Software Engineer · Full Stack Developer · AI Enthusiast.
+            - text: Building with passion, learning with purpose.
+          - generic [ref=e462]:
+            - link "GitHub" [ref=e463] [cursor=pointer]:
+              - /url: https://github.com/deepikarthini
+              - img [ref=e464]
+            - link "LinkedIn" [ref=e466] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/deepikarthinikanche/
+              - img [ref=e467]
+            - link "Email" [ref=e471] [cursor=pointer]:
+              - /url: mailto:deepikarthinikanche444@gmail.com
+              - img [ref=e472]
+        - generic [ref=e475]:
+          - heading "Quick Links" [level=4] [ref=e476]
+          - list [ref=e477]:
+            - listitem [ref=e478]:
+              - button "About" [ref=e479]
+            - listitem [ref=e480]:
+              - button "Skills" [ref=e481]
+            - listitem [ref=e482]:
+              - button "Projects" [ref=e483]
+            - listitem [ref=e484]:
+              - button "Certifications" [ref=e485]
+            - listitem [ref=e486]:
+              - button "Contact" [ref=e487]
+        - generic [ref=e488]:
+          - heading "Availability" [level=4] [ref=e489]
+          - generic [ref=e490]:
+            - generic [ref=e493]: Open to Work
+            - paragraph [ref=e494]: Full-time · Internship · Remote / Hybrid
+            - paragraph [ref=e495]: "Roles: SDE · Full Stack · AI Engineering"
+      - generic [ref=e497]:
+        - paragraph [ref=e498]:
+          - text: © 2025 Deepikarthini Kanche · Built with
+          - img [ref=e499]
+          - text: using React, Tailwind & Framer Motion
+        - button "Back to Top" [ref=e501]:
+          - img [ref=e502]
+          - text: Back to Top
