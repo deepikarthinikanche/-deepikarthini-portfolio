@@ -9,7 +9,7 @@ const fadeUp = {
 const highlights = [
   { label: 'Education', value: 'B.Tech CSE – Sri Chaitanya Technical Campus (CGPA: 7.58)', color: '#6c63ff' },
   { label: 'Certifications', value: 'CCNA (Cisco, Jun 2026) · Problem Solver (LeetCode/GFG)', color: '#00d4ff' },
-  { label: 'Tech Stack', value: 'Python · Java · JavaScript · TypeScript · React · Spring Boot · FastAPI · Docker', color: '#10b981' },
+  { label: 'Tech Stack', value: 'Python · Java · JavaScript · TypeScript · React · Spring Boot · FastAPI · Docker · Groq · LangChain', color: '#10b981' },
   { label: 'Current Role', value: 'Software Test Engineer Apprentice @ Cisco · June 2025–Present', color: '#f59e0b' },
 ];
 

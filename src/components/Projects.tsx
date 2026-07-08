@@ -35,6 +35,15 @@ const projects: Project[] = [
     badge: 'AI / RAG',
     badgeColor: '#38bdf8',
   },
+  {
+    title: 'Autonomous AI Agent',
+    description:
+      'An autonomous agent built with FastAPI that accepts natural language requests, plans its own task execution using LLM-powered reasoning, and generates polished Word documents. Features self-reflection to review and improve plans, multi-step execution (Research → Outline → Generate → Format → Review), and REST API endpoints for document generation.',
+    tech: ['Python', 'FastAPI', 'Groq', 'Llama 3.1', 'Pydantic', 'python-docx'],
+    github: 'https://github.com/deepikarthinikanche/autonomous-agent',
+    badge: 'AI Agent',
+    badgeColor: '#a78bfa',
+  },
 ];
 
 function ProjectCard({ project, index }: { project: Project; index: number }) {
