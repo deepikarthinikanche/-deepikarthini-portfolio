@@ -1,73 +1,116 @@
-# React + TypeScript + Vite
+# Deepikarthini Kanche — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive personal portfolio showcasing my software engineering experience, technical skills, certifications, and projects across full-stack development, AI systems, QA automation, and networking.
 
-Currently, two official plugins are available:
+## Highlights
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive single-page layout for desktop, tablet, and mobile
+- Animated section and project-card transitions with Framer Motion
+- Project gallery with live-demo, frontend, backend, and source-code links
+- Downloadable resume and CCNA certificate
+- Contact form and social links
+- Production build powered by Vite and TypeScript
 
-## React Compiler
+## Featured Projects
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Project | Summary | Technologies |
+| --- | --- | --- |
+| [BugRepo](https://github.com/deepikarthinikanche/bugrepo-frontend) | Full-stack bug reproduction and QA workflow platform with role-based access, assignment workflows, and centralized issue tracking. [Backend](https://github.com/deepikarthinikanche/bugrepo-backend) · [Live demo](https://bugrepo-frontend.vercel.app) | React, Spring Boot, PostgreSQL, Java, REST API |
+| TraceOps | RAG-based incident-analysis system that retrieves related application logs and helps identify root causes. | Python, FastAPI, LangChain, ChromaDB, React, OpenAI |
+| [Autonomous AI Agent](https://github.com/deepikarthinikanche/autonomous-agent) | LLM-powered agent that plans multi-step work, reflects on its output, and generates formatted Word documents. | Python, FastAPI, Groq, Llama 3.1, Pydantic, python-docx |
+| [Angular Cypress Authentication Testing Suite](https://github.com/deepikarthinikanche/Angular-Cypress-Authentication-Testing-Suite) | Angular authentication workflow with five component tests and nine Cypress end-to-end scenarios covering login, forms, navigation, and password reset. | Angular 20, TypeScript, Cypress 15, Jasmine, Karma |
+| [AI-First CRM HCP Module](https://github.com/deepikarthinikanche/AI-First-CRM-HCP-Module) | Healthcare CRM with structured interaction logging and a LangGraph assistant for HCP profiles, talking points, sentiment analysis, and follow-ups. | React, Redux, FastAPI, LangGraph, Groq, PostgreSQL |
 
-## Expanding the ESLint configuration
+## Portfolio Technology Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- React 19 and TypeScript
+- Vite 8
+- Tailwind CSS 4
+- Framer Motion
+- React Icons
+- ESLint
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Portfolio Sections
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Hero introduction and social links
+- About and professional summary
+- Technical skills
+- Cisco experience
+- Featured projects
+- Contact form
+- Resume and certificate links
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Getting Started
+
+### Requirements
+
+- Node.js 20 or newer
+- npm
+
+### Installation
+
+```powershell
+git clone https://github.com/deepikarthinikanche/-deepikarthini-portfolio.git
+cd -deepikarthini-portfolio
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Development
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```powershell
+npm run dev
 ```
+
+Open the local URL printed by Vite, normally `http://localhost:5173`.
+
+## Available Commands
+
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Start the Vite development server |
+| `npm run build` | Type-check the project and create a production build |
+| `npm run lint` | Run ESLint across the repository |
+| `npm run preview` | Preview the production build locally |
+
+## Production Build
+
+```powershell
+npm run lint
+npm run build
+npm run preview
+```
+
+The optimized production output is generated in `dist/`. The folder is intentionally excluded from Git because it can be recreated from the source.
+
+## Project Structure
+
+```text
+public/                 Static project screenshots, resume, and certificate
+src/
+  assets/               Imported application images
+  components/           Portfolio section components
+  App.tsx               Page composition
+  index.css             Global styles and Tailwind configuration
+  main.tsx              React entry point
+index.html              Vite HTML entry point
+vite.config.ts          Vite and Tailwind plugins
+```
+
+## Deployment
+
+This is a static Vite application and can be deployed to Vercel, Netlify, GitHub Pages, or any static hosting provider.
+
+Use these deployment settings:
+
+- Build command: `npm run build`
+- Output directory: `dist`
+
+## Contact
+
+- GitHub: [deepikarthinikanche](https://github.com/deepikarthinikanche)
+- LinkedIn: [Deepikarthini Kanche](https://www.linkedin.com/in/deepikarthinikanche/)
+- Email: [deepikarthinikanche444@gmail.com](mailto:deepikarthinikanche444@gmail.com)
+
+## License
+
+This portfolio and its source code are maintained for personal and professional presentation.
